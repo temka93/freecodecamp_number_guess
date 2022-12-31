@@ -1,6 +1,5 @@
 #!/bin/bash
 SCRIPT_RANDOM=$(($RANDOM % 1000 + 1))
-echo $SCRIPT_RANDOM
 TRIES=0
 PSQL="psql --username=freecodecamp --dbname=number_guess -t -c"
 echo Enter your username:
